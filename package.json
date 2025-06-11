@@ -1,0 +1,26 @@
+{
+  "name": "cloudflarescraper",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/philwing100/CloudflareScraper#readme",
+  "bugs": {
+    "url": "https://github.com/philwing100/CloudflareScraper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philwing100/CloudflareScraper.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+ "scripts": {
+  "scrape-nvidia": "node local/scrape-nvidia.js"
+},
+  "devDependencies": {
+    "@cloudflare/playwright": "^0.0.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
