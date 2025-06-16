@@ -8,10 +8,12 @@ export default {
   async fetch(request, env, ctx) {
     const { pathname } = new URL(request.url);
     const handler = routes[pathname];
+    console.log(pathname, handler);
 
     if (!handler) {
-      return new Response("Test not found", { status: 404 });
+      return new Response("Test not found ", { status: 404 });
     }
+
 
     try {
       const result = await handler(env);

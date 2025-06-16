@@ -14,13 +14,14 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
- "scripts": {
-  "scrape-nvidia": "node local/scrape-nvidia.js"
-},
+  "scripts": {
+    "scrape-nvidia": "node local/scrape-nvidia.js"
+  },
   "devDependencies": {
     "@cloudflare/playwright": "^0.0.10"
   },
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "playwright": "^1.53.0"
   }
 }
